@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.error {
+  color: red;
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-item {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  max-width: 600px;
+}
+
+.news-content {
+  /* CSS styling for elements with class name "news-content" */
+  font-size: 16px;
+  background-color: #f2f2f2;
+  /* Add any other styling rules you need */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #ff2f00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.abc {
+  height: 5px;
+  width: 5px;
+}
